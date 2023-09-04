@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
 namespace GetClimateAeC.Shared
@@ -13,9 +14,8 @@ namespace GetClimateAeC.Shared
         public string State { get; set; }
         [JsonPropertyName("atualizado_em")]
         public DateTime Updated_At { get; set; }
-        [JsonIgnore]
-        public Guid Climate_Id { get; set; }
         [JsonPropertyName("clima")]
+        [NotMapped]
         public List<CityClimateArray> ClimateArray { get; set; }
     }
 
@@ -35,5 +35,6 @@ namespace GetClimateAeC.Shared
         public int Max { get; set; }
         [JsonPropertyName("indice_uv")]
         public int Uv_Index { get; set; }
+        public virtual Guid OwnerId { get; set; }
     }
 }

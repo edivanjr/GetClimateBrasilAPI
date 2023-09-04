@@ -56,4 +56,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="LinkAirportClimateLocal" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="892d629e-1a8c-43dd-a498-d83cb85e6c69" ChangeDateTime="09/04/2023 14:59:57">
+    <Property Name="ElementName" Value="[dbo].[CityClimateArray].[owner]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CityClimateArray]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ownerId" />
+  </Operation>
 </Operations>

@@ -90,8 +90,9 @@ namespace GetClimateAeC.Server.Controllers
                 foreach (var cityClimateDetail in cityClimate.ClimateArray)
                 {
                     cityClimateDetail.Id = Guid.NewGuid();
+                    cityClimateDetail.OwnerId = cityClimate.Id;
                     await _dataContext.CityClimateArray.AddAsync(cityClimateDetail);
-                    cityClimate.Climate_Id = cityClimateDetail.Id;
+
                 }
 
                 await _dataContext.CityClimate.AddAsync(cityClimate);
