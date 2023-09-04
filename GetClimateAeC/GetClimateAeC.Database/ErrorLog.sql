@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[ErrorLog]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [ErrorMessage] NVARCHAR(MAX) NULL, 
+    [Date] NCHAR(10) NULL
+)

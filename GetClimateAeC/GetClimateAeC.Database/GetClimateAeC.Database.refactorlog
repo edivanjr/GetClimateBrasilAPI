@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="bb32a3f3-8337-4782-9c8a-104c5fbcbf70" ChangeDateTime="09/02/2023 22:19:02">
+    <Property Name="ElementName" Value="[dbo].[AirportClimate].[at]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AirportClimate]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="atmospheric_pressure" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="eb77589f-42fb-4cad-a7fd-baa022917e02" ChangeDateTime="09/02/2023 22:21:42">
+    <Property Name="ElementName" Value="[dbo].[City].[IdCity]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[City]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="idCity" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c5dabcd2-5c5d-4276-8876-54e94121724b" ChangeDateTime="09/02/2023 22:21:59">
+    <Property Name="ElementName" Value="[dbo].[City].[idCity]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[City]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_city" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e2b8f5f9-203f-4f0f-95cc-b31b92192dea" ChangeDateTime="09/02/2023 22:22:04">
+    <Property Name="ElementName" Value="[dbo].[City].[CityName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[City]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value=" city_name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2b570e16-ea76-4385-9d93-42d939def449" ChangeDateTime="09/02/2023 22:22:06">
+    <Property Name="ElementName" Value="[dbo].[City].[State]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[City]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="state" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ca8cf3a2-dcd7-4f4c-a42d-99445bb3e09b" ChangeDateTime="09/02/2023 22:22:12">
+    <Property Name="ElementName" Value="[dbo].[City].[ city_name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[City]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="city_name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4ae975bb-a6d2-419d-8196-942859287c40" ChangeDateTime="09/02/2023 22:32:11">
+    <Property Name="ElementName" Value="[dbo].[CityClimate].[climate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CityClimate]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="climate_id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5be77c98-4b7f-4755-acb5-0defef787cb5" ChangeDateTime="09/04/2023 07:07:03">
+    <Property Name="ElementName" Value="[dbo].[AirportCodes].[LinkAirportClimate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AirportCodes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LinkAirportClimateLocal" />
+  </Operation>
+</Operations>
